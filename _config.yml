@@ -101,7 +101,7 @@ author:
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: mailto:renine94.dev@gmail.com
+      # url: mailto:renine94.dev@gmail.com
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://94incheon.github.io/"
