@@ -4,9 +4,9 @@ main:
     url: https://94incheon.github.io/
   - title: "About"
     url: /about/
-  - title: "Posts"
-    url: /Posts/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
+  - title: "TIL"
+    url: /TIL/
+  - title: "Daily"
+    url: /daily/
   # - title: "Sitemap"
   #   url: /sitemap/
