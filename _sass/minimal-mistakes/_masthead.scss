@@ -10,6 +10,7 @@
   -webkit-animation-delay: 0.15s;
   animation-delay: 0.15s;
   z-index: 20;
+  background-color: #1a1d24;
 
   &__inner-wrap {
     @include clearfix;
@@ -67,6 +68,7 @@
 
   .site-nav {
     margin-left: 0;
+    background-color: #1a1d24;
 
     @include breakpoint($small) {
       float: right;
