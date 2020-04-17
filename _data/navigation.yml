@@ -1,12 +1,10 @@
 # main links
 main:
-  - title: "Home"
-    url: https://94incheon.github.io/
   - title: "About"
     url: /about/
-  - title: "TIL"
-    url: /TIL/
-  - title: "Daily"
-    url: /daily/
-  # - title: "Sitemap"
-  #   url: /sitemap/
+  - title: "Categories"
+    url: /Categories/
+  - title: "Tags"
+    url: /tags/
+  # - title: "Daily"
+  #   url: /daily/

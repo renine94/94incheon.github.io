@@ -14,7 +14,8 @@ $indent-var: 1.3em !default;
 
 /* system typefaces */
 $serif: Georgia, Times, serif !default;
-$sans-serif: -apple-system, BlinkMacSystemFont, "Nanum Gothic", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif !default;
+$sans-serif: -apple-system, BlinkMacSystemFont, "Noto Sans KR", "Roboto", "Segoe UI",
+  "Helvetica Neue", "Lucida Grande", Arial, sans-serif !default;
 $monospace: Monaco, Consolas, "Lucida Console", monospace !default;
 
 /* sans serif typefaces */
@@ -149,14 +150,13 @@ $max-width: $x-large !default;
 /*
    Grid
    ========================================================================== */
-// 블로그 좌우 여백
 
-$right-sidebar-width-narrow: 150px !default;
-$right-sidebar-width: 200px !default;
-$right-sidebar-width-wide: 250px !default;
 // $right-sidebar-width-narrow: 200px !default;
 // $right-sidebar-width: 300px !default;
 // $right-sidebar-width-wide: 400px !default;
+$right-sidebar-width-narrow: 200px !default;
+$right-sidebar-width: 180px !default;
+$right-sidebar-width-wide: 400px !default;
 
 /*
    Other

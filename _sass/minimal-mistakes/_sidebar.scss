@@ -41,7 +41,7 @@
   }
 
   > * {
-    margin-top: 1em;
+    margin-top: 2.5em;
     margin-bottom: 1em;
   }
 
@@ -127,12 +127,12 @@
   }
 
   img {
-    max-width: 110px;
-    border-radius: 50%;
+    max-width: 125px;
+    border-radius: 20%;
 
     @include breakpoint($large) {
-      padding: 5px;
-      border: 1px solid $border-color;
+      padding: 4px;
+      border: 2px solid $border-color;
     }
   }
 }

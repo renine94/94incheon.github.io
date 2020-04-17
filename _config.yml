@@ -12,34 +12,47 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "ko-KR"
-title                    : "94incheon의 개발이야기"
+title                    : "Tech blog"
 title_separator          : "-"
 subtitle                 : 비전공 개발이야기
 name                     : "Created by Jaegu Kang"
-description              : "초보 프로그래머 블로그"
+description              : "코린이의 Tech Blog"
 url                      : "https://94incheon.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : "94incheon/94incheon.github.io" # GitHub username/repo-name e.g. 
+repository               : "94incheon/94incheon.github.io"
 teaser                   : "/assets/images/500x300.jpg"
 logo                     : "/assets/images/88x88.png"
-masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
+masthead_title           : 94incheon's Tech Blog # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
-  provider               : disqus # 댓글기능
+  provider               : disqus # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
   disqus:
     shortname            : 94incheon-github-io
+  discourse:
+    server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
+  facebook:
+    # https://developers.facebook.com/docs/plugins/comments
+    appid                :
+    num_posts            : # 5 (default)
+    colorscheme          : # "light" (default), "dark"
+  utterances:
+    theme                : # "github-light" (default), "github-dark"
+    issue_term           : # "pathname" (default)
+  staticman:
+    branch               : # "master"
+    endpoint             : # "https://{your Staticman v3 API}/v3/entry/github/"
 reCaptcha:
   siteKey                :
   secret                 :
 atom_feed:
   path                   : # blank (default) uses feed.xml
 search                   : # true, false (default)
-search_full_content      : # true, false (default)
+search_full_content      : true # true, false (default)
 search_provider          : # lunr (default), algolia, google
 algolia:
   application_id         : # YOUR_APPLICATION_ID
@@ -82,16 +95,16 @@ analytics:
 author:
   name             : "94incheon"
   avatar           : "/assets/images/88x88.jpg"
-  bio              : "비전공자로 시작했지만, 꾸준히 노력하는 초보 개발자입니다."
-  location         : "Incheon Korea"
-  email            : "renine94.dev@gmail.com"
+  bio              : "기억보단 기록을."
+  location         : "Incheon. Korea"
+  email            : renine94.dev@gmail.com
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      # url: mailto:renine94.dev@gmail.com
+      # url: mailto:your.name@email.com
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "https://94incheon.github.io/"
+      # url: "https://your-website.com"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       # url: "https://twitter.com/"
@@ -194,9 +207,9 @@ sass:
 
 # Outputting
 permalink: /:categories/:title/
-paginate: 8 # 첫 페이지에 보여줄 최근 게시물 수
+paginate: 5 # amount of posts to show
 paginate_path: /page:num/
-timezone: Asia/Seoul # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: #
 
 
 # Plugins (previously gems:)
@@ -263,11 +276,11 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: true # 댓글사용
+      comments:  true
       share: true
       related: true
-  
-  # _pages
+
+    # _pages
   - scope:
       path: ""
       type: pages
@@ -275,8 +288,6 @@ defaults:
       layout: single
       author_profile: true
       read_time: false
-      comments: false
+      comments: true
       share: true
       related: false
-
-theme: jekyll-theme-midnight
