@@ -20,6 +20,9 @@ toc_label: "페이지 주요 목차"
 # 가장 아래 참고 이미지
 teaser: # /assets/images/88x88.jpg
 
+# 이미지 경로 복사
+# /assets/images/
+
 # 카테고리/태그
 categories:
    - algorithm

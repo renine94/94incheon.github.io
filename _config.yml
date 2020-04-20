@@ -16,11 +16,11 @@ minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "dark", "dirt", "n
 
 # Site Settings
 locale                   : "ko-KR"
-title                    : "Tech blog"
+title                    : "renine94.dev"
 title_separator          : "-"
 subtitle                 : 비전공 개발이야기
 name                     : "Created by Jaegu Kang"
-description              : "코린이의 Tech Blog"
+description              : "Jaegu's Tech Blog"
 url                      : "https://94incheon.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "94incheon/94incheon.github.io"
@@ -52,7 +52,7 @@ reCaptcha:
 atom_feed:
   path                   : # blank (default) uses feed.xml
 search                   : # true, false (default)
-search_full_content      : true # true, false (default)
+search_full_content      : # true, false (default)
 search_provider          : # lunr (default), algolia, google
 algolia:
   application_id         : # YOUR_APPLICATION_ID
@@ -275,7 +275,7 @@ defaults:
     values:
       layout: single
       author_profile: true
-      read_time: true
+      read_time: false
       comments:  true
       share: true
       related: true
