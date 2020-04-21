@@ -1,6 +1,6 @@
 ---
 title: "Posts by Month"
-permalink: /monthly/
+permalink: /month/
 layout: monthly
 author_profile: true
 ---
