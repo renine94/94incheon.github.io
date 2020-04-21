@@ -10,8 +10,8 @@ header:
   teaser: /assets/images/logo_Django.jpg # 맨 아래 참고 이미지
 
 # 게시글 제목/설명
-title:  # "algorithm : 제목111"
-excerpt: # "테스트내용입니다."
+title:  "Django : ORM 을 사용하여 SQL 을대신하여 데이터를 읽어오자."
+excerpt: "CRUD 부분중에 데이터를 읽는 read 부분. sql의 where 을 대신하여 orm으로 활용해보자."
 
 # 목차설정부분
 toc: true
@@ -26,7 +26,7 @@ tags: python Django ORM QuerySet
 # Django ORM
 
 > [참고문헌 : Django ORM CookBook](https://django-orm-cookbook-ko.readthedocs.io/en/latest/index.html)
-
+> [참고문헌 : Django 공식문서](https://docs.djangoproject.com/en/2.2/topics/db/queries/#escaping-percent-signs-and-underscores-in-like-statements)
 
 
 ## QuerySet
