@@ -6,5 +6,7 @@ main:
     url: /Categories/
   - title: "Tags"
     url: /tags/
+  - title: "Monthly"
+    url: /month/
   # - title: "Daily"
   #   url: /daily/

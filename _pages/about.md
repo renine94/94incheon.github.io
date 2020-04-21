@@ -1,27 +1,32 @@
 ---
-title: "Intro"
+title: "About - 94incheon"
 permalink: /about/
 layout: single
 ---
-
-# 94incheon.github.io 기술블로그
-
+<pre>
 이 블로그는,
-그날 배운것을 정리하는 공간이자, 추후 포트폴리오로 활용될 기술블로그입니다.
-
+그날 배운것을 정리하는 공간이자,
+추후 포트폴리오로 활용될 **기술블로그**입니다.
+</pre>
 
 ## 소개
-- 강재구
+- 94incheon
 - 인천
-- 수원대학교 경영학과 졸업
-- 010 6413 9771
-- <a href='https://github.com/94incheon' target='_blank' class='btn--info'>Github</a>
+- 수원대학교 경영학과
+- Tel) 010-6413-9771
+- renine94.dev@gmail.com
 - [Github 보러가기](https://github.com/94incheon){: .btn .btn--primary}
 
 
 ## 이수내역
 - 빅데이터 개발자 양성과정 이수 / 2019. 08 ~ 2019. 12 / 한국소프트웨어협회
 - SSAFY 3기 / 2020.01 ~ 현재진행 / 삼성 청년 소프트웨어 아카데미
+
+
+## 기술스택
+- Python
+- HTML, CSS, JavaScript
+- Django
 
 
 ## 인사말
