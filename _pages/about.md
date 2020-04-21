@@ -15,8 +15,8 @@ layout: single
 - 인천
 - 수원대학교 경영학과 졸업
 - 010 6413 9771
-- <a href='https://github.com/94incheon' target='_blank'>Github</a>
-- [Github](https://github.com/94incheon)
+- <a href='https://github.com/94incheon' target='_blank' class='btn--info'>Github</a>
+- [Github 보러가기](https://github.com/94incheon){: .btn .btn--primary}
 
 
 ## 이수내역
