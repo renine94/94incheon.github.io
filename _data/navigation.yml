@@ -5,8 +5,8 @@ main:
   - title: "Categories"
     url: /Categories/
   - title: "Tags"
-    url: /tags/
+    url: /Tags/
   - title: "Monthly"
-    url: /month/
+    url: /Monthly/
   # - title: "Daily"
   #   url: /daily/
