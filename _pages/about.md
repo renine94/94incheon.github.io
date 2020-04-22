@@ -15,7 +15,7 @@ layout: single
 - 수원대학교 경영학과
 - Tel) 010-6413-9771
 - renine94.dev@gmail.com
-- [Github 보러가기](https://github.com/94incheon){: .btn .btn--primary}
+- <i class="fab fa-github"></i> [Github 보러가기](https://github.com/94incheon){: .btn .btn--primary}
 
 
 ## 이수내역
@@ -24,8 +24,9 @@ layout: single
 
 
 ## 기술스택
-- Python
-- HTML, CSS, JavaScript
+- <i class="fab fa-python"></i>Python
+- <i class="fab fa-html5"></i>HTML, <i class="fab fa-css3-alt"></i>CSS, <i class="fab fa-js-square"></i>JavaScript
+- <i class="fab fa-github"></i> Github
 - Django
 
 

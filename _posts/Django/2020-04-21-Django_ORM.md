@@ -25,7 +25,7 @@ tags: python Django ORM QuerySet
 
 # Django ORM
 
-> [참고문헌 : Django ORM CookBook](https://django-orm-cookbook-ko.readthedocs.io/en/latest/index.html)
+> [참고문헌 : Django ORM CookBook](https://django-orm-cookbook-ko.readthedocs.io/en/latest/index.html)<br>
 > [참고문헌 : Django 공식문서](https://docs.djangoproject.com/en/2.2/topics/db/queries/#escaping-percent-signs-and-underscores-in-like-statements)
 
 
