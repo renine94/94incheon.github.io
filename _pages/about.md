@@ -24,8 +24,8 @@ layout: single
 
 
 ## 기술스택
-- <i class="fab fa-python"></i>Python
-- <i class="fab fa-html5"></i>HTML, <i class="fab fa-css3-alt"></i>CSS, <i class="fab fa-js-square"></i>JavaScript
+- <i class="fab fa-python"></i> Python
+- <i class="fab fa-html5"></i> HTML, <i class="fab fa-css3-alt"></i> CSS, <i class="fab fa-js-square"></i> JavaScript
 - <i class="fab fa-github"></i> Github
 - Django
 
