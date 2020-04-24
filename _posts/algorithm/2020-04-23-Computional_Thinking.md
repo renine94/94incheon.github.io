@@ -6,7 +6,7 @@ header:
   # 카톡으로 url 보낼때 사진
   og_image: /assets/images/logo_Algorithm.jpg
   # 출처
-  caption: "출처 : [**개인**](94incheon.github.io)"
+  caption: "출처 : [**개인**](https://94incheon.github.io)"
   # 맨 아래 이미지
   teaser: /assets/images/logo_Algorithm.jpg
 
