@@ -34,12 +34,14 @@ tags: formatting
 
 
 ```django
-{{ date|date:'표현식' }}
+
+{ { date|date:'표현식' } }
 
 기준 시간 : 2020-04-24 14:10:01 (KST)
 
-{{ date|date:'Y년 m월 d일' }}
+{ { date|date:'Y년 m월 d일' } }
 2020년 04월 24일
+
 ```
 
 
