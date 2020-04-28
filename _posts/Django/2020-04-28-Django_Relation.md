@@ -6,7 +6,7 @@ header:
   # 카톡으로 url 보낼때 사진
   og_image: /assets/images/logo_Django.jpg
   # 출처
-  caption: "출처 : [**개인**](https://www.github.com/94incheon)"
+  caption: "출처 : [**개인**](https://94incheon.github.io)"
   # 맨 아래 이미지
   teaser: /assets/images/logo_Django.jpg
 
@@ -180,7 +180,7 @@ def comment_create(request, post_id):
 - 위의 방법을 사용하면 `if request.method == 'POST'` 와 같은 조건문을 사용할 필요가 없음
 - [공식문서](https://docs.djangoproject.com/en/2.2/topics/http/decorators/) 참조
 
-```
+```python
 from django.views.decorators.http import require_POST
 
 @require_POST
@@ -223,7 +223,7 @@ def list(request):
 - Post에서 Comment로 접근할 때(1 => N) : `post.comment.set.all()`
 - Comment에서 Post로 접근할 때(N => 1) : `comment.post`
 
-```
+```html
 <!-- _post.html -->
 
 <div class="card-body">
