@@ -41,7 +41,7 @@ tags: Relation Table
 
   - 클래스는 posts 어플리케이션 내에 작성
 
-- ```plaintext
+- ```python
   models.ForeignKey
   ```
 
@@ -55,7 +55,7 @@ tags: Relation Table
 
 
 
-  ```plaintext
+  ```python
   ForeignKeyField
   ```
 
@@ -99,7 +99,7 @@ class CommentForm(forms.ModelForm):
 
   - `comment`의 멤버변수인 `post` 는 `Post` 모델과 외래키로 연결되어있으며, 이때 자동적으로 연결된 `post`에 대한 id를 입력하는 column이 생성된다. `Comment` 모델 클래스를 보면 `post` 필드라고 명시 되어있지만 실제로 생성되는 필드는 `post`가 아니라 `post_id` 이다. (Default 값)
 
-- ```plaintext
+- ```python
   comment.post_id
   ```
 
@@ -109,7 +109,7 @@ class CommentForm(forms.ModelForm):
 
 
 
-  ```plaintext
+  ```python
   post_id
   ```
 
@@ -119,7 +119,7 @@ class CommentForm(forms.ModelForm):
 
 
 
-  ```plaintext
+  ```python
   post_id
   ```
 
@@ -200,7 +200,7 @@ def comment_create(request, post_id):
 - forms.py 내 생성한 `CommentForm` 을 사용하기 위해 불러온 후, 템플릿 변수로 넘겨줌
 - 추가로, 최근에 작성한 게시글이 상위에 나타내기 위해 `order_by('-id')` 입력
 
-```
+```python
 def list(request):
     posts = Post.objects.order_by('-id').all()
     comment_form = CommentForm()
@@ -250,7 +250,7 @@ Model은 실제 DB에 저장 시키기 위해 사용(스키마의 형태)하는 
 
 - `label` : 기본적인 input의 이름. 빈 값을 넣어서 라벨을 제거.
 
-- ```plaintext
+- ```python
   widget
   ```
 
@@ -260,7 +260,7 @@ Model은 실제 DB에 저장 시키기 위해 사용(스키마의 형태)하는 
 
 
 
-  ```plaintext
+  ```python
   widget
   ```
 
@@ -268,7 +268,7 @@ Model은 실제 DB에 저장 시키기 위해 사용(스키마의 형태)하는 
 
 
 
-  ```plaintext
+  ```python
   forms.TextInput
   ```
 
@@ -278,7 +278,7 @@ Model은 실제 DB에 저장 시키기 위해 사용(스키마의 형태)하는 
 
 
 
-  ```plaintext
+  ```python
   forms.Textarea
   ```
 
