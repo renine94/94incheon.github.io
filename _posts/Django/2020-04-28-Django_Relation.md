@@ -28,9 +28,6 @@ tags: Relation Table
 
 ## 1. 1:1 관계
 
->
-
-
 
 ## 2. 1:N 관계
 
@@ -331,9 +328,6 @@ class CommentForm(forms.ModelForm):
 ```
 
 
-
-
-
 ## 3. M:N 관계
 
 > ex) 유저와 게시글 좋아요수, 의사와 환자 등등.
@@ -358,10 +352,7 @@ class Patient(models.Model):
 
 ```
 
-
-
 ![image-20200428101855379](/assets/images/Django/image-20200428101855379.png)
-
 
 
 - 동일한모델에서 같은 테이블(User) 을 외래키로 잡아버리면, `역참조 네임` 을 지정해줘야 할 경우가 발생한다.
