@@ -191,7 +191,6 @@ def comment_create(request, post_id):
         comment.user = request.user
         comment.post_id = post_id
         comment.save()
-
     return redirect('posts:list')
 ```
 
