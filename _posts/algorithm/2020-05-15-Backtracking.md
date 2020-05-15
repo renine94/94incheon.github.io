@@ -26,7 +26,7 @@ tags: Backtracking
 
 # 백트래킹
 
-## :one: 백트래킹 개념
+## :cupid: 백트래킹 개념
 
 > - 여러 가지 선택지(옵션)들이 존재하는 상황에서 한가지를 선택한다.
 > - 선택이 이루어지면 새로운 선택지들의 집합이 생성된다.
@@ -164,7 +164,7 @@ for tc in range(1, T+1):
     print(f'#{tc} {result}')
 ```
 
-![image-20200515141138418](images/image-20200515141142103.png)
+![image-20200515141138418](/assets/images/Algorithm/image-20200515141142103.png)
 
 
 
